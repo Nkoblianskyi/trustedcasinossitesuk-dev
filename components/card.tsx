@@ -99,7 +99,7 @@ export function Card({ site, rank }: SiteCardProps) {
             <img
               src={site.logo}
               alt={site.name}
-              className="max-h-12 max-w-[110px] w-auto object-contain"
+              className="max-h-24 max-w-[150px] w-auto object-contain"
             />
           </div>
         </div>
@@ -114,11 +114,11 @@ export function Card({ site, rank }: SiteCardProps) {
           </p>
           <p
             className="font-serif font-semibold leading-tight mb-1"
-            style={{ color: "#EDE4CC", fontSize: "clamp(1.1rem, 2vw, 1.5rem)" }}
+            style={{ color: "#EDE4CC", fontSize: "clamp(1.1rem, 2vw, 2rem)" }}
           >
             {site.bonus}
           </p>
-          <p className="font-sans text-[11px]" style={{ color: "rgba(237,228,204,0.4)" }}>
+          <p className="font-sans text-[12px]" style={{ color: "rgba(237,228,204,0.4)" }}>
             {site.welcomeOffer ?? site.bonus}
           </p>
         </div>
