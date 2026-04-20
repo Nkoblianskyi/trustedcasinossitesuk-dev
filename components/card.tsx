@@ -89,7 +89,7 @@ export function Card({ site, rank }: SiteCardProps) {
 
         {/* Logo column */}
         <div
-          className="shrink-0 flex items-center justify-center w-28 lg:w-36 px-3 py-5"
+          className="shrink-0 flex items-center justify-center w-44 lg:w-48 px-3 py-5"
           style={{ borderRight: "1px solid rgba(201,168,76,0.1)" }}
         >
           <div
